@@ -1,9 +1,6 @@
 name: Nightly LTS Build
 
 on:
-  schedule:
-    - cron: "0 1 * * *"
-
   workflow_dispatch:
 
 jobs:
@@ -27,7 +24,7 @@ jobs:
       - name: Checkout shared scripts
         uses: actions/checkout@v4
         with:
-          repository: Ante0/gscripts
+          repository: xChickens/gscripts
           ref: main
           path: shared-gscripts
 
@@ -76,7 +73,7 @@ jobs:
       - name: Checkout shared scripts
         uses: actions/checkout@v4
         with:
-          repository: Ante0/gscripts
+          repository: xChickens/gscripts
           ref: main
           path: shared-gscripts
 
