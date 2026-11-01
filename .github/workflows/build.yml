@@ -36,7 +36,7 @@ jobs:
       - name: Checkout shared scripts
         uses: actions/checkout@v4
         with:
-          repository: Ante0/gscripts
+          repository: xChickens/gscripts
           ref: main
           path: shared-gscripts
 
